@@ -1,5 +1,8 @@
 const Nome = prompt("Inserire il nome")
 const Cognome = prompt("Inserire il cognome")
-const Abitazione = prompt("Inserire il proprio colore preferito")
+const colore = prompt("Inserire il proprio colore preferito")
 
-document.getElementById("nome-preferito").innerHTML = '<h1>nomecognomecolorepreferito21</h1>'
+const nomeCompleto = Nome + Cognome + colore
+
+console.log(nomeCompleto+21)
+document.write (nomeCompleto+21)
